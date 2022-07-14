@@ -112,18 +112,18 @@ onMounted(() => {
 		<main class="container mx-auto p-6 flex-1">
 			<div v-if="choice === null" class="flex items-center justify-center -mx-6">
 				<button @click="play('rock')"
-					class="bg-gray-100 rounded-full shadow-xl w-64 p-12 mx-6 transition-colors duration-300 hover:bg-blue-500">
-					<img src="https://cdn2.iconfinder.com/data/icons/valuable-items/200/minerals_coal-512.png"
+					class="bg-gray-100 rounded-full shadow-xl w-64 mx-6 p-5 transition-colors duration-300 hover:bg-blue-500">
+					<img src="./assets/rock.svg"
 						alt="Rock" class="w-full" />
 				</button>
 				<button @click="play('paper')"
-					class="bg-gray-100 rounded-full shadow-xl w-64 p-12 mx-6 transition-colors duration-300 hover:bg-green-500">
-					<img src="https://www.pikpng.com/pngl/b/61-611981_paper-waste-icon-free-download-and-graphic-design.png"
+					class="bg-gray-100 rounded-full shadow-xl w-64 mx-6 p-5 transition-colors duration-300 hover:bg-green-500">
+					<img src="./assets/paper.svg"
 						alt="Paper" class="w-full" />
 				</button>
 				<button @click="play('scissors')"
-					class="bg-gray-100 rounded-full shadow-xl w-64 p-12 mx-6 transition-colors duration-300 hover:bg-yellow-500">
-					<img src="https://cdn-icons-png.flaticon.com/512/5418/5418004.png" alt="Scissors" class="w-full" />
+					class="bg-gray-100 rounded-full shadow-xl w-64 mx-6 p-5 transition-colors duration-300 hover:bg-yellow-500">
+					<img src="./assets/scissors.svg" alt="Scissors" class="w-full" />
 				</button>
 			</div>
 
